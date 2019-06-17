@@ -1,0 +1,24 @@
+<html>
+<body>
+<p id="demo"></p>
+
+<script>
+function myFunction(a,d,c,d,e) {
+  var a=1,b=4,c=6,d=9,e=8;
+  if ( a>b && a>c && a>d && a>e) {
+    document.getElementById("demo").innerHTML = a;
+  } else if ( b>a && b>c && b>d && b>e) {
+    document.getElementById("demo").innerHTML = b;
+  } else if ( c>a && c>b && c>d && c>e) {
+    document.getElementById("demo").innerHTML = c;
+  } else if ( d>a && d>b && d>c && d>e) {
+    document.getElementById("demo").innerHTML = d;
+  }else {
+     document.getElementById("demo").innerHTML = e;
+   }
+  }
+console.log(myFunction());
+</script>
+
+</body>
+</html>
