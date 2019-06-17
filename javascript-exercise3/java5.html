@@ -1,0 +1,18 @@
+<html>
+<body>
+<p id="demo1"></p>
+<p id="demo2"></p>
+<p id="demo3"></p>
+<script>
+var foods = ["rice", "pizza", "sandwich", "rolls"];
+
+foods.pop();
+document.getElementById("demo1").innerHTML = foods;
+ foods.push("cake");
+ document.getElementById("demo2").innerHTML = foods;
+ foods.shift("rice");
+ document.getElementById("demo3").innerHTML = foods;
+</script>
+
+</body>
+</html>
